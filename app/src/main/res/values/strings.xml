@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Reportes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Reporte de Actividades</string>
+    <string name="nav_header_subtitle">admon.archivos.con@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Acerca de</string>
+
+    <string name="menu_home">Reportes</string>
+    <string name="menu_gallery">Opción 2</string>
+    <string name="menu_slideshow">Opción 3</string>
+    <string name="menu_tools">Opción 4</string>
+    <string name="menu_share">Opción 5</string>
+    <string name="menu_send">Opción 6</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

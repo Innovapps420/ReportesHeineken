@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:paddingBottom="25dp">
+
+
+           <ImageView
+               android:layout_width="210dp"
+               android:layout_height="194dp"
+               android:layout_gravity="center"
+               android:layout_marginTop="84dp"
+               app:srcCompat="@drawable/logo_hei" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="16dp"
+               android:layout_marginRight="16dp"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="14dp"
+                   android:fontFamily="@font/hind_madurai_light"
+                   android:text="Bienvenido"
+                   android:textColor="@color/colorPrimary"
+                   android:textSize="38dp"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="-8dp"
+                   android:fontFamily="@font/hind_madurai_light"
+                   android:text="Iniciar Sesión"
+                   android:textColor="#E43F4658"
+                   android:textSize="22dp" />
+
+
+               <android.support.v7.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="150dp"
+                   android:layout_margin="10dp"
+                   app:cardCornerRadius="3dp"
+                   app:cardElevation="3dp">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical"
+                       android:gravity="center"
+                       android:padding="8dp">
+
+                       <android.support.design.widget.TextInputLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:hint="Usuario">
+
+                           <EditText
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:fontFamily="@font/hind_madurai_light" />
+
+                       </android.support.design.widget.TextInputLayout>
+
+                       <android.support.design.widget.TextInputLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                           <EditText
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:fontFamily="@font/hind_madurai_light"
+                               android:hint="Contraseña"
+                               android:inputType="textPassword"
+                               android:textColorLink="@color/colorAccent" />
+                       </android.support.design.widget.TextInputLayout>
+
+
+                   </LinearLayout>
+               </android.support.v7.widget.CardView>
+
+               <Button
+                   android:id="@+id/btnMissPassword"
+                   style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="end"
+                   android:text="Olvidé mi contraseña"/>
+
+               <Button
+                   android:id="@+id/btnIniciarSesion"
+                   android:layout_width="230dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:background="@drawable/btn_login"
+                   android:foreground="?attr/selectableItemBackground"
+                   android:clickable="true"
+                   android:fontFamily="@font/hind_madurai_light"
+                   android:text="Iniciar Sesión"
+                   android:layout_marginTop="5dp"
+                   android:textColor="#ffff"
+                   android:textSize="16sp"
+                   android:textStyle="bold" />
+
+           </LinearLayout>
+
+
+       </LinearLayout>
+
+
+</ScrollView>
